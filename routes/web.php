@@ -19,3 +19,6 @@ Route::get('/cv/{id}', [CVController::class, 'show'])->name('cv.show');
 Route::get('/cv/{id}/edit', [CVController::class, 'edit'])->name('cv.edit');
 Route::patch('/cv/{id}', [CVController::class, 'update'])->name('cv.update');
 Route::delete('/cv/{id}', [CVController::class, 'destroy'])->name('cv.destroy');
+
+
+

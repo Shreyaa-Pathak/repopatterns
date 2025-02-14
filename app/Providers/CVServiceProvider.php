@@ -15,6 +15,7 @@ class CVServiceProvider extends ServiceProvider
     {
         $this->app->bind(CVRepositoryInterface::class, CVRepository::class);
     }
+    
 
     /**
      * Bootstrap services.
@@ -24,3 +25,4 @@ class CVServiceProvider extends ServiceProvider
         //
     }
 }
+
